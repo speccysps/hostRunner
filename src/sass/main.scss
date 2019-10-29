@@ -9,16 +9,12 @@ body {
     font-family: $font-primary;
 }
 
-
-main .row:nth-child(even) {
-    background: darken(colour(lightBackground), 3%);
-}
-
 .hero {
     #bg {
         font-family: $font-primary;
-        clip-path: polygon(0 0, 100% 0%, 100% 95%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
         width: 100%;
+        min-height: 30em;
         height: 100%;
         position: relative;
         z-index: -1;
@@ -27,6 +23,14 @@ main .row:nth-child(even) {
 
     .bg-gradient-primary {
         background: colour(primaryGradient);
+    }
+
+    .inside {
+        margin: 0 auto;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     h1 {
@@ -55,8 +59,14 @@ section {
 }
 
 .latestWork {
-    img, a{
+
+    img,
+    a {
         width: 100%;
-        position: relative;
+
+    }
+
+    .title {
+        margin: 1em 0;
     }
 }

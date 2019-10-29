@@ -10567,15 +10567,12 @@ body {
   font-family: "Montserrat", -apple-system, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-main .row:nth-child(even) {
-  background: #f7f7f7;
-}
-
 .hero #bg {
   font-family: "Montserrat", -apple-system, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 95%, 0% 100%);
-          clip-path: polygon(0 0, 100% 0%, 100% 95%, 0% 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
   width: 100%;
+  min-height: 30em;
   height: 100%;
   position: relative;
   z-index: -1;
@@ -10584,6 +10581,15 @@ main .row:nth-child(even) {
 
 .hero .bg-gradient-primary {
   background: linear-gradient(73deg, #5a63c4 0%, #49174d 100%);
+}
+
+.hero .inside {
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .hero h1 {
@@ -10609,8 +10615,12 @@ section h2 {
   margin-bottom: 0;
 }
 
-.latestWork img, .latestWork a {
+.latestWork img,
+.latestWork a {
   width: 100%;
-  position: relative;
+}
+
+.latestWork .title {
+  margin: 1em 0;
 }
 /*# sourceMappingURL=main.css.map */
