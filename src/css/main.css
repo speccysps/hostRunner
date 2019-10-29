@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,400,700");
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -10561,8 +10563,12 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+body {
+  font-family: "Montserrat", -apple-system, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
 #bg {
-  font-family: -apple-system, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Montserrat", -apple-system, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 95%, 0% 100%);
           clip-path: polygon(0 0, 100% 0%, 100% 95%, 0% 100%);
   background-color: #4240ad;
@@ -10574,12 +10580,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 h2.display-4 {
-  font-size: 3em;
+  font-size: 2.375rem;
   color: #fff;
-  font-family: serif;
-}
-
-section .btn {
-  margin-top: -2em;
 }
 /*# sourceMappingURL=main.css.map */
