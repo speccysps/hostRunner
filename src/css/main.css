@@ -10567,5 +10567,11 @@ body {
 
 .jumbotron {
   background-color: #4240ad;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 74%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0%, 100% 74%, 0% 100%);
+  width: 100%;
+  height: 70%;
+  position: absolute;
+  z-index: -1;
 }
 /*# sourceMappingURL=main.css.map */
