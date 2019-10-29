@@ -1,6 +1,14 @@
 @import 'variables';
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
+@function colour($colour-name) {
+    @return map-get($colours, $colour-name);
+}
+
 body {
     font-family: $font-primary;
+}
+
+.jumbotron{
+    background-color: colour(primary)
 }

@@ -10562,6 +10562,10 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 body {
-  font-family: -apple-system, "Poppins", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.jumbotron {
+  background-color: #4240ad;
 }
 /*# sourceMappingURL=main.css.map */
