@@ -9,6 +9,14 @@ body {
     font-family: $font-primary;
 }
 
+.row{
+    // background: red;
+}
+
+main .row:nth-child(even) {
+background: darken(colour(lightBackground), 3%);
+}
+
 .hero {
     #bg {
         font-family: $font-primary;
