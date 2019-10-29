@@ -9,12 +9,9 @@ body {
     font-family: $font-primary;
 }
 
-.row{
-    // background: red;
-}
 
 main .row:nth-child(even) {
-background: darken(colour(lightBackground), 3%);
+    background: darken(colour(lightBackground), 3%);
 }
 
 .hero {
@@ -32,7 +29,7 @@ background: darken(colour(lightBackground), 3%);
         background: colour(primaryGradient);
     }
 
-    h2 {
+    h1 {
         font-size: 2.375rem;
         color: #fff;
         font-weight: bold;
@@ -45,5 +42,21 @@ background: darken(colour(lightBackground), 3%);
         background: transparent;
         transition: all 0.3s ease 0s;
         margin: 1em 0;
+    }
+}
+
+section {
+    h2 {
+        font-size: 28px;
+        font-weight: bold;
+        padding: 0.5em 0;
+        margin-bottom: 0;
+    }
+}
+
+.latestWork {
+    img, a{
+        width: 100%;
+        position: relative;
     }
 }

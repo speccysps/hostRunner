@@ -10586,7 +10586,7 @@ main .row:nth-child(even) {
   background: linear-gradient(73deg, #5a63c4 0%, #49174d 100%);
 }
 
-.hero h2 {
+.hero h1 {
   font-size: 2.375rem;
   color: #fff;
   font-weight: bold;
@@ -10600,5 +10600,17 @@ main .row:nth-child(even) {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   margin: 1em 0;
+}
+
+section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  padding: 0.5em 0;
+  margin-bottom: 0;
+}
+
+.latestWork img, .latestWork a {
+  width: 100%;
+  position: relative;
 }
 /*# sourceMappingURL=main.css.map */
