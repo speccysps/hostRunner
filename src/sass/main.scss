@@ -5,15 +5,17 @@
     @return map-get($colours, $colour-name);
 }
 
-body {
+#bg {
     font-family: $font-primary;
+    clip-path: polygon(0 0, 100% 0%, 100% 95%, 0% 100%);
+    background-color: colour(primary);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+    padding: 2em 0;
 }
 
-.jumbotron {
-    background-color: colour(primary);
-    clip-path: polygon(0 0, 100% 0%, 100% 74%, 0% 100%);
-    width: 100%;
-    height: 70%;
-    position: absolute;
-    z-index: -1;
+section .btn {
+    margin-top: -2em;
 }
