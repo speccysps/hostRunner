@@ -17,9 +17,12 @@
   },
   "homepage": "https://github.com/spskeen/hostRunner#readme",
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0",
     "sass": "^1.23.1"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7"
   }
-  }
+}
