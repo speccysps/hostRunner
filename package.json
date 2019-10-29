@@ -1,0 +1,25 @@
+{
+  "name": "hostrunner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spskeen/hostRunner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spskeen/hostRunner/issues"
+  },
+  "homepage": "https://github.com/spskeen/hostRunner#readme",
+  "dependencies": {
+    "sass": "^1.23.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+  }
