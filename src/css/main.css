@@ -10567,6 +10567,14 @@ body {
   font-family: "Montserrat", -apple-system, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+.nav-item {
+  margin: 0 1.5rem 0 1.5rem;
+}
+
+.nav-item:nth-last-child(1) {
+  margin: 0 0 0 1.5rem;
+}
+
 .hero #bg {
   font-family: "Montserrat", -apple-system, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
