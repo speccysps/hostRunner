@@ -1,0 +1,28 @@
+// ! .col-xs (extra small devices - screen width less than 576px/phones)
+// ! .col-sm- (small devices - screen width equal to or greater than 576px/phones)
+// ! .col-md- (medium devices - screen width equal to or greater than 768px/tablets)
+// ! .col-lg- (large devices - screen width equal to or greater than 992px/desktops)
+// ! .col-xl- (xlarge devices - screen width equal to or greater than 1200px/desktops)
+
+// * lg devices (desktop 992px)
+@media (min-width: 768px) {
+    .hero {
+
+        h1 {
+            font-size: 2.875rem;
+        }
+
+    }
+}
+
+// * lg devices (desktop 992px)
+@media (min-width: 992px) {
+    .hero {
+
+        h1 {
+            font-size: 4rem;
+            margin: 0 5em;
+        }
+
+    }
+}
